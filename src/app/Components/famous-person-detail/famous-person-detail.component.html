@@ -1,0 +1,5 @@
+<h3 (click)="toggleDisplay()"> {{ Person.firstName }} {{ Person.lastName }}</h3>
+<div *ngIf="display">
+    <p>{{ Person.innovation }}</p>
+    <p>{{ Person.year }}</p>
+</div>
